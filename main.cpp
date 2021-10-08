@@ -267,7 +267,7 @@ int main(int argc, char* argv[])
 	w << "Total: " << Ans_res << endl;
 	for (int i = 1; i <= Ans_cnt; ++i) {
 		if (i == 1 || ans[i] != ans[i - 1]) {
-			w << "line" << ans[i].line << ": <";
+			w << "Line" << ans[i].line << ": <";
 			w << s[ans[i].id] << "> ";
 			w << ans[i].org << endl;
 		}
